@@ -1,0 +1,99 @@
+.alumni {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 0;
+}
+
+.alumni-heading {
+  width: 100%;
+  padding: 3em 0;
+}
+
+.alumni-card__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  padding: 1em 0;
+}
+
+.alumni-card__ {
+  height: auto;
+  padding: 32px;
+  background-color: #f1ecdf;
+  border-radius: 10px;
+  outline: none;
+  min-width: calc(100% - 16px);
+  max-width: calc(100% - 16px);
+}
+
+.alumni-card__:hover {
+  -webkit-box-shadow: #cfc4c4 0px 8px 32px -12px;
+          box-shadow: #cfc4c4 0px 8px 32px -12px;
+}
+
+.alumni-avatar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alumni-avatar img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.alumni-avatar p {
+  padding: 0 1em;
+}
+
+.alumni-description {
+  margin-top: 2em;
+}
+
+.alumni-time {
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 48em) {
+  .alumni {
+    width: 90%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1em 0;
+    gap: 2em;
+  }
+}
+/*# sourceMappingURL=Alumni.css.map */

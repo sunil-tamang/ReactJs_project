@@ -1,0 +1,27 @@
+.online-users {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.online-users-image {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 .8em 0 0;
+}
+
+.online-users-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.online-users-heading {
+  padding: 1em 0;
+}
+/*# sourceMappingURL=Online.css.map */

@@ -1,0 +1,115 @@
+.program-overview__wrapper {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5em;
+  padding: 3em 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.program-overview__wrapper__heading {
+  width: 90%;
+  padding: 1em 0;
+}
+
+.program-overview {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  padding: 1em 0;
+  gap: 1em;
+}
+
+.program-overview > li {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1em 1em;
+  border-radius: 6px;
+}
+
+.program-overview__icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.program-overview__icon--label {
+  padding: 0em 2em;
+  font-size: clamp(0.5em, 2.5vw, 1em);
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #0e1e25;
+}
+
+.program-overview__icon--label p {
+  margin-top: 1em;
+}
+
+@media (min-width: 48em) {
+  .program-overview__wrapper__heading {
+    width: 100%;
+    padding: 1em;
+  }
+  .program-overview {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(20px, auto);
+    justify-items: center;
+  }
+  .program-overview > li {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 60em) {
+  .program-overview__wrapper__heading {
+    width: 100%;
+    padding: 1em 6em;
+  }
+  .program-overview > li {
+    width: 500px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=ProgramOverview.css.map */

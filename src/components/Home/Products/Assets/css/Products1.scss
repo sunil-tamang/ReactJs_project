@@ -1,0 +1,125 @@
+.products-container1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    // background: #f5af19;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding:2em 0 ;
+}
+.products-button__container1 {
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:1em;
+    overflow:scroll;
+    padding: 1em 0em;
+    background: pink;
+    }
+
+
+
+
+.products-button {
+    width: auto;
+    outline: none;
+    border-radius: 4px;
+    padding: .8em 1em;
+    // margin: .5rem 0;
+    border-radius: 4px;
+    outline: none;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    gap:1em;
+    font-weight:bold;
+    font-size:14px;
+}
+.products-button.active{
+    background: #e95454;
+    }
+
+
+.products-button:hover{
+    background: #e95454;
+    border-radius: 4px;
+    }   
+    
+.products__wrapper1 {
+    width: 100%;
+    height: auto;
+    // background-color: #433b3b;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    //    padding: 0 2em;
+
+}
+.products1 {
+    width: 200px;
+    margin: 0 1em 0 0;
+    // height: 500px;
+    // background-color:red;
+    // border: 1px solid #333;
+    display: flex !important;
+    justify-content:space-around;
+    align-items: center ;
+
+}
+
+.course1 {
+
+    // background-color:blue;
+    width:95%;
+    height:auto;
+    padding:2em 0;
+    // margin: 0 .5em 0 0;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+}
+
+.poster1 {
+    width: 100%;
+    height:auto;
+    // margin-right: 12px;
+    background:rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    // box-shadow: rgb(230, 230, 230) 16px 0px 50px 0px; 
+
+
+}
+.poster1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.course__detail1 {
+    width: 100%;
+    height: 150px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+    padding: 1em 1em;
+    // background: rgb(174, 130, 130);
+    background: rgb(255, 255, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(230, 230, 230) 0px 16px 20px 0px; 
+
+
+}
+.course__title1 {
+
+        }
+
+

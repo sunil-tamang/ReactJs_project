@@ -1,0 +1,62 @@
+.overview {
+  width: 100%;
+  height: auto;
+  background-color: #9d80e6;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1em;
+}
+
+.progress-wrapper {
+  width: 350px;
+  height: 100px;
+  background-color: #3a2121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+.progresso {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1em;
+}
+
+.chart {
+  width: 100%;
+  height: 300px;
+}
+/*# sourceMappingURL=Overview.css.map */

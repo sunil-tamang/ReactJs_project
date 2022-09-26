@@ -1,0 +1,97 @@
+.faculty{
+     width: 90%;
+     height: auto;
+    //  background-color:#ddd1d166;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding:3em 0em; 
+     margin-top: 20px;
+     border-radius: 8px;
+    }
+.faculty-heading{
+    width:100%;
+    height:200px;
+    // background-color:red;
+    padding: 1em 0em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;    
+    }
+
+.wooper{
+    width: 100%;
+    padding: 1em 0em;
+    // background: #C4C4C4;
+    display: flex;
+    flex-direction:column;
+    gap:1em;
+    justify-content: center;
+    border-radius: 8px;
+    }
+.faculty-card__container{
+    width:200px !important;
+    height:auto;
+    padding: 1em  0 !important;
+    display: flex !important;
+    justify-content:flex-start;
+    align-items: center;
+    // background-color: yellow !important;
+}
+:global {
+.slick-prev:before, .slick-next:before {
+display: none;
+}
+
+}
+
+    .faculty-card{
+        width:200px;
+        height:300px;
+        display: flex !important;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items: center;
+}
+.faculty-background{
+        position: relative;
+        width:100%;
+        height:100%;
+
+}
+#abc{
+         display: flex;
+         justify-content:center;
+         align-items: center;
+         width: 100px;
+         height: 100px;
+         background:#5d6966cc;
+         border-radius: 8px;  
+           
+    }
+.slick-next:before, .slick-prev:before {
+    display:none;
+}
+
+.faculty-text{
+    position:absolute;
+    width:200px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding: 1em 1em;
+    // background-color:red;
+    // border-radius: 8px;
+}
+.faculty-text p{
+    color:#fff;
+}
+
+@media (min-width: 48em) {
+    .faculty{
+     width: 90%;
+    
+    } 
+}

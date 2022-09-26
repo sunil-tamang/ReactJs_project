@@ -1,0 +1,122 @@
+.accordian__container{
+    width: 90%;
+    height: auto;
+    // background: #C4C4C4;
+    // background-color:#ddd1d166;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;  
+    padding: 3em 0em;  
+    
+}
+.accordian:hover{
+        // background-color: yellow;
+    }
+
+.accordian__container__heading{
+    width:100%;
+    // height:200px;
+    // background-color:red;
+    padding: 1.5em 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.accordian__text{
+    // padding: 0em 1em;
+    padding-left: 2em;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    gap:1em;
+    }
+
+.accordian__{
+         width: 100%;
+    }
+
+.accordian__details{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:1em;
+    // padding: 1em 0em;
+    }
+.accordian__details__{
+         display: flex;
+         align-items: center;
+         gap:1em;
+}
+
+.accordian__details img{
+        width:40px;
+        height:80px;
+        border-radius:25px;
+    }
+.accordian-title{
+    width:auto;
+    height:auto;
+    // padding: 0 1em;
+    }
+
+.video-quantity{
+    // padding: 0 1em;
+    }
+
+
+.accordian__details1{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: .5em;
+    }
+
+
+// .accordian{
+//     display: flex;
+//     flex-direction:column;
+//     width: 100%;
+//     margin:.5em 0;
+//     background-color:#F9EBE9 !important ;
+//     border-radius:10px  !important;
+//     }
+
+// .sub-accordian{
+//         // margin:.2em 0;
+//         // padding: .2em 0;
+//         border:0 !important;
+//         // border-radius:10px !important;
+//         background-color:#F9EBE9 !important ;
+
+//     }   
+
+// .accord{
+//        display: flex;
+//        flex-direction:column;
+//         width: 100%;
+//         // background-color:#aca8a7;
+//     }
+
+
+@media (min-width:48em){
+
+.accordian__details__{
+    gap:2em;
+    }
+   
+    }
+
+@media (min-width:60em){
+   
+   
+    
+    }

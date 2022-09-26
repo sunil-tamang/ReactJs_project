@@ -1,0 +1,33 @@
+.upload-box__wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    // align-items: center;
+    justify-content:flex-start;
+    gap:1em;
+    background-color:#dfdadac4;
+    padding:1em;
+    border-radius: 8px;
+}
+
+.upload-box__wrapper img{
+     width:150px;
+     height:150px;
+     border-radius: 8px;
+     object-fit: cover;
+    }
+
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.upload{
+color:transparent;
+width:200px;
+height:50px;    
+background: #444857;
+// margin:1em 0;
+border-radius:4px;
+}
+
