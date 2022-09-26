@@ -19,7 +19,9 @@ class App extends Component {
         return (
             <>
                 <BrowserRouter >
-                     <Routes/>
+                     <HashRouter>
+                         <Routes/>
+                      </HashRouter>
                 </BrowserRouter>
           </>
         )

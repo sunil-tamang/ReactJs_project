@@ -114,11 +114,13 @@ ReactDOM.render(
    
    <Provider store={createStoreWithMiddlware(reducers)}>
             <MuiThemeProvider theme={theme}>
-                {/* <React.StrictMode> */}
+                <React.StrictMode>
                   <BrowserRouter >
-                      <Routes/>
+                  <HashRouter>
+                       <Routes/>
+                      </HashRouter>
                   </BrowserRouter>
-                {/* </React.StrictMode>, */}
+                </React.StrictMode>,
             </MuiThemeProvider>
   </Provider>
   ,document.getElementById('root'));
