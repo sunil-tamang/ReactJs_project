@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sunil-tamang/e_learning/static/css/main.b87248f7.chunk.css",
-    "main.js": "/sunil-tamang/e_learning/static/js/main.1b455dd5.chunk.js",
-    "main.js.map": "/sunil-tamang/e_learning/static/js/main.1b455dd5.chunk.js.map",
+    "main.js": "/sunil-tamang/e_learning/static/js/main.f0ca257c.chunk.js",
+    "main.js.map": "/sunil-tamang/e_learning/static/js/main.f0ca257c.chunk.js.map",
     "runtime-main.js": "/sunil-tamang/e_learning/static/js/runtime-main.3cc45818.js",
     "runtime-main.js.map": "/sunil-tamang/e_learning/static/js/runtime-main.3cc45818.js.map",
     "static/js/2.17bf4a4a.chunk.js": "/sunil-tamang/e_learning/static/js/2.17bf4a4a.chunk.js",
@@ -75,6 +75,6 @@
     "static/js/runtime-main.3cc45818.js",
     "static/js/2.17bf4a4a.chunk.js",
     "static/css/main.b87248f7.chunk.css",
-    "static/js/main.1b455dd5.chunk.js"
+    "static/js/main.f0ca257c.chunk.js"
   ]
 }
