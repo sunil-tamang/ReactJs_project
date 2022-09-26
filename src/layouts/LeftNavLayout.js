@@ -1,5 +1,5 @@
 import React,{useState, useEffect,} from 'react'
-import {BrowserRouter as Router, Switch, Route, Link , NavLink, HashRouter} from 'react-router-dom';
+import {BrowserRouter , Switch, Route, Link , NavLink, HashRouter} from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import './assets/css/Style.css'
