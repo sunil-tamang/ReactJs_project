@@ -26,7 +26,7 @@ function HomeLayout(props) {
     return (
         <div>
             <Header />
-                <HashRouter>
+                <HashRouter basename={process.env.PUBLIC_URL}>
                     <Switch>
 
                   <Route  exact path={`${match.path}`}  render={(props) => <Home {...props} /> } />

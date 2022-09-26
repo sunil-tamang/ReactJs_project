@@ -18,7 +18,7 @@ class App extends Component {
 
         return (
             <>
-                     <HashRouter>
+                     <HashRouter basename={process.env.PUBLIC_URL}>
                          <Routes/>
                       </HashRouter>
           </>

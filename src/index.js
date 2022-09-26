@@ -115,7 +115,7 @@ ReactDOM.render(
    <Provider store={createStoreWithMiddlware(reducers)}>
             <MuiThemeProvider theme={theme}>
                 <React.StrictMode>
-                  <HashRouter>
+                  <HashRouter basename={process.env.PUBLIC_URL}>
                        <Routes/>
                       </HashRouter>
                 </React.StrictMode>,

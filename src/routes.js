@@ -26,7 +26,7 @@ import Artist from './components/Home/artist';
 
 const routes = () => {
     return (
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                         {/* <Route exact path='/' component={Home} />  */}
                         

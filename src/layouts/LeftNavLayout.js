@@ -114,7 +114,7 @@ const LeftNavLayout = (props) => {
 
 
             <div className="dashboardy">
-            <HashRouter>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                         {/* <Route exact path={`${match.path}/overview`} render={(props) => <Dashboard {...props} /> }/> */}
                         {/* <Route path={`${match.path}/`} component={Home} /> */}
