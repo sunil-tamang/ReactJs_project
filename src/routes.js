@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route,HashRouter} from 'react-router-dom';
 
 
 
@@ -26,7 +26,7 @@ import Artist from './components/Home/artist';
 
 const routes = () => {
     return (
-
+        <HashRouter>
                 <Switch>
                         {/* <Route exact path='/' component={Home} />  */}
                         
@@ -49,6 +49,7 @@ const routes = () => {
                         <Route path='/signup' component={Signup} />
                         <Route path='/' component={Home} /> */}
                 </Switch>
+                </HashRouter>
     );
 };
 

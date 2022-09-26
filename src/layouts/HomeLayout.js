@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import {BrowserRouter as Router, Switch, Route, Link, Redirect  } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link, Redirect,HashRouter  } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import Home from '../components/Home/Index'
@@ -26,7 +26,8 @@ function HomeLayout(props) {
     return (
         <div>
             <Header />
-                <Switch>
+                <HashRouter>
+                    <Switch>
 
                   <Route  exact path={`${match.path}`}  render={(props) => <Home {...props} /> } />
                   <Route  path={`${match.path}engineering`} component={Engineering} />
@@ -64,6 +65,7 @@ function HomeLayout(props) {
                     
                 
                 </Switch>
+                </HashRouter>
             <Footer />
 
 
