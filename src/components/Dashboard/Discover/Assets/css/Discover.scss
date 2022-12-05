@@ -1,0 +1,120 @@
+.discover{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.discover-button__container {
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding: 2em 0;
+    // background:#242222;
+
+}
+
+.discover-button {
+    outline: none;
+    // border-radius: var(--border-radius);
+    color:var(--text-color);
+    cursor: pointer;
+    // padding: 1em 2em;
+    margin: 0 1.5rem 0 0;
+    border: 0;
+    outline: none;
+    // font-size: 12px;
+    letter-spacing: 1.2px;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+   
+}
+    
+.discover__wrapper {
+    width: 100%;
+    height: auto;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // padding: 0 2em;
+
+}
+.discover__child {
+    width:100%;
+    height: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(20px, auto);
+    // padding: 1em;
+    // display: flex !important;
+    // flex-direction:row;
+    // justify-content:flex-start; 
+    // align-items: center ;
+    // flex-wrap: wrap;
+    gap:.5em;
+    // background:#242222;
+
+
+}
+
+.discover-course {
+    border-radius: 5px;
+
+    // width:235px;
+    // height:250px;
+    // position: relative;
+    // display: flex !important;
+    // flex-direction:row;
+    // justify-content:flex-start;
+    // flex-wrap: wrap;
+    gap:1em;
+    // margin: 1em 0em 0 0;
+    
+}
+
+.discover__poster {
+    width: 100%;
+    height: 250px;
+    // position:absolute;
+    // top: 0;
+    // left: 0;
+    }
+.discover__poster img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+
+.discover__detail {
+    width: 100%;
+    height:250px;
+    // position:absolute;
+    // top: 0;
+    // left: 0;
+    z-index: 3;
+    padding: 1em;
+    background: rgba(94, 81, 81, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    
+
+}
+.tutor-image{
+        width:35px;
+        height:35px;
+        border-radius:8px; 
+        border-width: 1em;
+        border-color: #fffff;
+    }
+.discover__category{
+    width: 100%;
+    padding:.5em 0;
+    height:100px;
+    
+    }

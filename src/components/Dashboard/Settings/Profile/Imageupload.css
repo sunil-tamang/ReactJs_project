@@ -1,0 +1,38 @@
+.upload-box__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 1em;
+  background-color: #dfdadac4;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.upload-box__wrapper img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.upload {
+  color: transparent;
+  width: 200px;
+  height: 50px;
+  background: #444857;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Imageupload.css.map */

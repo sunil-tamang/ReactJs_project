@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,KAAK;EACZ,gBAAgB,EAAC,SAAS;EAC1B,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,GAAG;EACZ,OAAO,EAAC,IAAI;EACZ,eAAe,EAAE,UAAU;CAC9B",
+    "sources": [
+        "Tutor.scss"
+    ],
+    "names": [],
+    "file": "Tutor.css"
+}

@@ -1,0 +1,229 @@
+.form__wrapper1 {
+  height: auto;
+  width: 100%;
+}
+
+.form-field__container1 {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* <nav> */
+.logo {
+  width: 150px;
+  height: 50px;
+  margin-left: -18px;
+}
+
+.wide-navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 0em;
+  z-index: 3;
+}
+
+/* <ul> */
+.wide-navbar-nav {
+  width: 90%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+/* <li> */
+.wide-navbar-item1 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.wide-navbar-item2 {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2em;
+}
+
+.wide-navbar-item3 {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.wide-navbar-links {
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  background-color: white;
+  outline: none;
+  border-radius: var(--border-radius);
+  color: #3c4852;
+  cursor: pointer;
+  border: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #f0f4f7;
+}
+
+/* Icon Button */
+.icon-button {
+  padding: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: -webkit-filter 300ms;
+  transition: -webkit-filter 300ms;
+  transition: filter 300ms;
+  transition: filter 300ms, -webkit-filter 300ms;
+}
+
+.icon-button:hover {
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
+}
+
+.icon-button svg {
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}
+
+/* Dropdown Menu */
+.wide-menu-dropdown {
+  position: absolute;
+  top: 80px;
+  width: 320px;
+  height: auto;
+  background-color: #d3d3d3de;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  -webkit-transform: translateX(5%);
+          transform: translateX(5%);
+  -webkit-transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  z-index: 3;
+}
+
+.wide-menu-item {
+  padding: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+}
+
+.wide-menu-item .icon-button:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.wide-menu-item:hover {
+  background-color: #FEE419;
+}
+
+.icon-right {
+  margin-left: auto;
+}
+
+.menu {
+  width: 100%;
+  padding: 1rem;
+}
+
+.wide-menu {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+}
+
+.menu-primary-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+}
+
+.menu-primary-exit {
+  position: absolute;
+}
+
+.menu-primary-exit-active {
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  -webkit-transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+}
+
+.menu-secondary-enter {
+  -webkit-transform: translateX(110%);
+          transform: translateX(110%);
+}
+
+.menu-secondary-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+}
+
+.menu-secondary-exit-active {
+  -webkit-transform: translateX(110%);
+          transform: translateX(110%);
+  -webkit-transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+  transition: all var(--speed) cubic-bezier(0.3, 0.53, 0.42, 1.22);
+}
+/*# sourceMappingURL=Widenav.css.map */

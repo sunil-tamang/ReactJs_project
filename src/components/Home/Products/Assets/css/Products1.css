@@ -1,0 +1,118 @@
+.products-container1 {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 0;
+}
+
+.products-button__container1 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 1em;
+  overflow: scroll;
+  padding: 1em 0em;
+  background: pink;
+}
+
+.products-button {
+  width: auto;
+  outline: none;
+  border-radius: 4px;
+  padding: .8em 1em;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  gap: 1em;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.products-button.active {
+  background: #e95454;
+}
+
+.products-button:hover {
+  background: #e95454;
+  border-radius: 4px;
+}
+
+.products__wrapper1 {
+  width: 100%;
+  height: auto;
+}
+
+.products1 {
+  width: 200px;
+  margin: 0 1em 0 0;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.course1 {
+  width: 95%;
+  height: auto;
+  padding: 2em 0;
+}
+
+.poster1 {
+  width: 100%;
+  height: auto;
+  background: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.poster1 img {
+  width: 100%;
+  height: 200px;
+}
+
+.course__detail1 {
+  width: 100%;
+  height: 150px;
+  padding: 1em 1em;
+  background: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-box-shadow: #e6e6e6 0px 16px 20px 0px;
+          box-shadow: #e6e6e6 0px 16px 20px 0px;
+}
+/*# sourceMappingURL=Products1.css.map */

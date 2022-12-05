@@ -1,0 +1,222 @@
+
+.form__wrapper1 {
+    height:auto;
+    width: 100%;
+  
+}
+
+.form-field__container1 {
+    width:100%; 
+    height: auto;
+    // padding:10px;
+    margin-top: 20px;
+    
+}
+/* <nav> */
+
+
+// .wide-navbar{
+//   display: none;
+// }
+// @media(min-width:48em){
+
+ .logo{
+        width:150px;
+        height:50px;
+          margin-left:-18px;
+        // align-self: center;
+    }
+.wide-navbar {
+  width: 100%;
+  // height: 100px;
+  // background-color:red;
+  display: flex;
+  justify-content:center;
+  padding:1em 0em;
+  z-index: 3;
+}
+
+/* <ul> */
+.wide-navbar-nav {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  justify-content:flex-start;
+  //  background-color:blue;
+  //  padding:1em 2em;
+    
+}
+
+/* <li> */
+.wide-navbar-item1 {
+  width:20%;
+  // background-color:black;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start; 
+  // padding:2em 0;
+  
+}
+.wide-navbar-item2 {
+  width: 15%;
+  // background-color:blue;
+  display: flex;
+  align-items: center;
+  // justify-content:center; 
+  padding:0 2em;
+  
+}
+  .wide-navbar-item3 {
+  width: 65%;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end; 
+  // padding:2em 0;
+  
+}
+.wide-navbar-links{
+  padding:0.5em 1.5em;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+}
+
+.button{
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: var(--border-radius);
+  color:rgb(60, 72, 82);
+  cursor: pointer;
+  border: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: rgb(240, 244, 247);
+}
+
+/* Icon Button */
+.icon-button {
+  // --button-size: calc(var(--nav-size) * 0.5);
+  // height: var(--button-size);
+  // width: var(--button-size);
+  // background-color: rgb(255, 255, 255);
+  padding:0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
+}
+
+.icon-button:hover {
+  filter: brightness(1.2);
+}
+
+.icon-button svg { 
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Dropdown Menu */
+
+.wide-menu-dropdown {
+  position: absolute;
+  top: 80px;
+  width:320px;
+  height: auto;
+  // background-color: rgb(255, 255, 255);
+  background-color: #d3d3d3de;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: height 0.2s ease-in-out;
+  transform: translateX(5%);
+  transition: all var(--speed) cubic-bezier(.3,.53,.42,1.22);
+  z-index: 3;
+}
+
+
+.wide-menu-item {
+  // background: red;
+  // width:100%;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  // transition: background var(--speed);
+  // margin-top: .5em;
+}
+
+.wide-menu-item .icon-button {
+  // margin-right: 0.5rem;
+}
+
+
+.wide-menu-item .icon-button:hover {
+  filter: none;
+}
+
+.wide-menu-item:hover {
+  // background-color: #525357;
+  background-color: #FEE419;
+  
+}
+
+.icon-right {
+  margin-left: auto;
+}
+
+    
+.menu{
+    width: 100%;
+    // background:red;
+     padding: 1rem;
+
+  }
+
+.wide-menu {
+  width: 100%;
+  // background:blue;
+  padding: 1rem;
+}
+
+.wide-menu__link {
+  // width: 100%;
+  // padding: 0.5rem;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) cubic-bezier(.3,.53,.42,1.22);
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all var(--speed) cubic-bezier(.3,.53,.42,1.22);
+}
+
+
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) cubic-bezier(.3,.53,.42,1.22);
+}
+.menu-secondary-exit {
+
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) cubic-bezier(.3,.53,.42,1.22);
+}
+
+// }

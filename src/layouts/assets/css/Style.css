@@ -1,0 +1,227 @@
+::-webkit-scrollbar {
+  width: .2em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(126, 120, 120, 0.3);
+          box-shadow: inset 0 0 6px rgba(126, 120, 120, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.sidebar__container {
+  background: #FFFFFF;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 70px auto;
+      grid-template-rows: 70px auto;
+      grid-template-areas: " dash" "dash";
+}
+
+.side {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #468acf;
+  grid-area: side;
+  display: none;
+  padding: 1em 0;
+}
+
+.dashboard-logo {
+  padding: 0em 1.5em;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dashboard-logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.dashboardy {
+  width: 100%;
+  height: auto;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: dash;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 1em;
+  background: #FFFFFF;
+}
+
+.dashboard-navigation-wrapper {
+  width: 90%;
+  height: auto;
+  background: #dfdadac4;
+  border-radius: 8px;
+  padding: 1em 1em;
+}
+
+.sidebar__link, .logout {
+  padding: .5em 0em;
+  border-radius: 5px;
+}
+
+.selected {
+  -webkit-transition: background 0.4s ease-in-out, padding 0.3s ease-in-out;
+  transition: background 0.4s ease-in-out, padding 0.3s ease-in-out;
+  background: #DE9244;
+  border-radius: 5px;
+}
+
+.padd {
+  padding: .5em 1em;
+}
+
+.user-support {
+  width: 90%;
+  height: auto;
+  padding: 1em;
+  background: #dfdadac4;
+  border-radius: 8px;
+  margin-top: 3em;
+}
+
+.user-support__svg {
+  width: 100%;
+  height: auto;
+  margin-top: -80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.user-support__svg img {
+  width: 100%;
+  height: 150px;
+}
+
+.hood {
+  display: none;
+}
+
+.mobile-dash {
+  width: 100%;
+  height: '';
+  padding: 1em;
+  background-color: #F8F8F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+@media (min-width: 48em) {
+  .sidebar__container {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 250px auto;
+        grid-template-columns: 250px auto;
+    -ms-grid-rows: 100px auto;
+        grid-template-rows: 100px auto;
+        grid-template-areas: "side hd" "side dash";
+  }
+  .dashboard-header {
+    width: 100%;
+    height: auto;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: hd;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .side {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #FFFFFF;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: side;
+    padding: 1em 0;
+  }
+  .dashboard-logo {
+    padding: 1em 1.5em;
+    width: 90%;
+    height: auto;
+    background: #dfdadac4;
+    border-radius: 5px;
+  }
+  .dashboard-logo img {
+    width: 150px;
+    height: 50px;
+  }
+  .dashboardy {
+    width: 100%;
+    height: auto;
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: dash;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 1em;
+    background: #FFFFFF;
+  }
+  .hood {
+    display: block;
+  }
+  .mobile-dash {
+    display: none;
+    background: yellow;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

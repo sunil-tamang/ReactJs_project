@@ -1,0 +1,19 @@
+.course-page{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+    
+    }
+.course-item{
+        background: #444857;
+        padding:1em;
+        border-radius: 8px;
+    
+    }
+.__title{
+        background:#96abf5;
+        width:100%;
+        padding:.5em;
+        border-radius: 8px;
+
+    }
